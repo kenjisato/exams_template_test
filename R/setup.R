@@ -15,9 +15,9 @@
 #' Then change `is_set` variable to TRUE.
 #'
 
-pkg_dir <- "/path/to/dev/exams/pkg/exams"
-lib_dir <- "/path/to/dev/lib"
-is_set <- FALSE # TRUE
+pkg_dir <- "~/OneDrive/R-Packages/exams/pkg/exams"
+lib_dir <- "~/.R/lib-dev"
+is_set <- TRUE
 
 if (!is_set) {
   stop("In setup.R: Please specify the paths and set `is_set` to TRUE before moving on. \nThe script you are trying to run will produce side effects. Please run it carefully.")
