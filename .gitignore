@@ -1,4 +1,7 @@
-# History files
+#
+Results/*
+
+#History files
 .Rhistory
 .Rapp.history
 
